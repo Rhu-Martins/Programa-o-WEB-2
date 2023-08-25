@@ -5,7 +5,7 @@ const trocarBackgroundButton = document.getElementById('trocarBackground');
 const body = document.body;
 
 // Define um array com URLs das imagens de fundo
-const imagensDeFundo = ["/img/textura.jpg", "/img/textura4.jpg"];
+const imagensDeFundo = ["../img/textura.jpg", "../img/textura4.jpg"];
 
 // Inicializa um índice para rastrear a imagem de fundo atual
 let indexAtual = 0;
