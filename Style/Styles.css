@@ -1,0 +1,559 @@
+body {
+    background-image: url("/img/textura.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.btn-fundo{
+    background-color: black;
+    color: aliceblue;
+    border-radius: 20px;
+    border: solid 1px aliceblue;
+    margin-top: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: Gruppo;
+    box-shadow: 0px 4px 8px rgba(255, 255, 255, 0.5);
+}
+
+.btn-fundo:hover{
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+/* padrão */
+.texto{
+    color: aliceblue;
+    text-align: center;
+    font-family: Gruppo;
+}
+
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo{
+    font-size: 35px;
+    color: aliceblue;
+    font-family: Rubik Iso;
+}
+
+.section-um , .info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.info{
+    border: solid 1px #fff;
+    border-radius: 10px;
+    height: 30rem;
+}
+
+.img-rhuan{
+    width: 60%;
+    padding-right: 5px;
+    padding-top: 30px;
+
+}
+
+
+.apresentacao{
+    border-top: solid 1px #fff;
+    width: 80%;
+    padding: 25px;
+}
+.section-dois{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+.ferramentas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.section-estudos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+
+.img-triade-humans{
+    width: 60%;
+    transition: 0.8s;
+    border-radius: 10px;
+}
+
+.img-triade-humans:hover{
+    width: 90%;
+    transition: 0.8s;
+}
+
+
+.triade, .bi-boot, .hobbies{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.bi-boot{
+    justify-content: space-around;
+    gap: 5px;
+}
+.img-triade{
+    width: 30%;
+    transition: 0.3s;
+}
+.img-triade:hover{
+    width: 35%;
+    transition: 0.3s;
+}
+
+.html{
+    width: 33%;
+    padding-bottom: 25px;
+}
+
+.img-powerbi{
+    width: 25%;
+    border-radius: 10px;
+}
+.img-powerbi:hover{
+    width: 30%;
+    transition: 0.3s;
+}
+
+
+.img-bootstrap{
+    width: 30%;
+    transition: 0.3s;
+}
+.img-bootstrap:hover{
+    width: 35%;
+    transition: 0.3s;
+}
+
+.img-github{
+    width: 30%;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+.img-github:hover{
+    width: 35%;
+    transition: 0.3s;
+}
+
+.img-mtb{
+    width: 28%;
+    transition: 0.3s;
+}
+.img-mtb:hover{
+    width: 31%;
+    transition: 0.3s;
+}
+
+.img-airsoft{
+    width: 33%;
+    transition: 0.3s;
+    padding-bottom: 30px;
+}
+.img-airsoft:hover{
+    width: 34%;
+    transition: 0.3s;
+}
+
+.img-skate{
+    width: 22%;
+    transition: 0.3s;
+}
+.img-skate:hover{
+    width: 25%;
+    transition: 0.3s;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    border-top: solid 1px #fff;
+    padding-top: 20px;
+    gap: 10px;
+}
+
+@media(min-width: 530px){
+    .info{
+        height: 40rem;
+    }
+
+    .img-triade-humans{
+        width: 50%;
+        transition: 0.8s;
+        border-radius: 10px;
+    }
+    
+    .img-triade-humans:hover{
+        width: 90%;
+        transition: 0.8s;
+    }
+
+    .img-triade{
+        width: 25%;
+        transition: 0.3s;
+    }
+    .img-triade:hover{
+        width: 30%;
+        transition: 0.3s;
+    }
+    
+    
+    .img-powerbi{
+        width: 20%;
+        border-radius: 10px;
+    }
+    .img-powerbi:hover{
+        width: 25%;
+        transition: 0.3s;
+    }
+    
+    
+    .img-bootstrap{
+        width: 25%;
+        transition: 0.3s;
+    }
+    .img-bootstrap:hover{
+        width: 30%;
+        transition: 0.3s;
+    }
+
+
+}
+
+@media(min-width: 768px){
+
+    .nav-bar{
+        justify-content: end;
+    }
+
+    .titulo{
+        font-size: 50px;
+    }
+    .info{
+        flex-direction: row;
+        height: 25rem;
+        gap: 50px;
+    }
+    .img-rhuan{
+        width: 30%;
+    }
+
+    .apresentacao{
+        width: 40%;
+        border-top: none;
+        border-left: solid 1px #fff;
+    }
+
+    .estudos{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+  .section-estudos{
+    width: 120%;
+    padding-left: 50px;
+    
+  }
+  
+  .section-hobbies{
+        width: 120%;
+        padding-right: 50px;
+  }
+
+    .texto{
+        font-size: 20px;
+    }
+
+    .img-triade-humans{
+        width: 80%;
+        transition: 0.8s;
+        border-radius: 10px;
+    }
+    
+    .img-triade-humans:hover{
+        width: 100%;
+        transition: 0.8s;
+    }
+
+
+    .ferramentas{
+        gap: 20px;
+    }
+    .img-triade{
+        width: 15%;
+        transition: 0.3s;
+    }
+    .img-triade:hover{
+        width: 19%;
+        transition: 0.3s;
+    }
+    .html{
+        width: 18%;
+        padding-bottom: 0px;
+    }
+
+    .bi-boot{
+        width: 30%;
+        gap: 10px;
+        padding-right: 10px;
+    }
+
+    .img-github{
+        width: 55%;
+        border-radius: 50%;
+    }
+    .img-github:hover{
+        width: 58%;
+        transition: 0.3s;
+    }
+    
+    .img-powerbi{
+        width: 50%;
+        border-radius: 10px;
+    }
+    .img-powerbi:hover{
+        width: 53%;
+        transition: 0.3s;
+    }
+    
+    
+    .img-bootstrap{
+        width: 65%;
+        transition: 0.3s;
+    }
+    .img-bootstrap:hover{
+        width: 68%;
+        transition: 0.3s;
+    }
+
+    .esportes{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        flex-direction: row-reverse;
+    }
+
+    .img-mtb{
+        width: 24%;
+        transition: 0.3s;
+    }
+    .img-mtb:hover{
+        width: 27%;
+        transition: 0.3s;
+    }
+    
+    .img-airsoft{
+        width: 29%;
+        transition: 0.3s;
+        padding-bottom: 30px;
+    }
+    .img-airsoft:hover{
+        width: 32%;
+        transition: 0.3s;
+    }
+    
+    .img-skate{
+        width: 18%;
+        transition: 0.3s;
+    }
+    .img-skate:hover{
+        width: 21%;
+        transition: 0.3s;
+    }
+
+
+    .footer{
+        font-size: 15px;
+        padding-top: 10px;
+    }
+}
+
+@media(min-width: 1024px){
+
+    .nav-bar{
+        margin-right: 120px;
+    }
+
+    .info{
+        gap: 180px;
+        width: 80%;
+        height: 20rem;
+    }
+    .img-rhuan{
+        width: 30%;
+        padding-top: 0px;
+        padding-left: 10px;
+    }
+
+    .apresentacao{
+        width: 30%;
+        padding-left: 10%;
+    }
+
+    .img-triade-humans{
+        width: 60%;
+        transition: 0.8s;
+        border-radius: 10px;
+    }
+    
+    .img-triade-humans:hover{
+        width: 90%;
+        transition: 0.8s;
+    }
+
+    .img-triade{
+        width: 20%;
+        transition: 0.3s;
+    }
+    .img-triade:hover{
+        width: 23%;
+        transition: 0.3s;
+    }
+
+    .img-github{
+        width: 50%;
+        border-radius: 50%;
+    }
+    .img-github:hover{
+        width: 55%;
+        transition: 0.3s;
+    }
+    
+    .img-powerbi{
+        width: 45%;
+        border-radius: 10px;
+    }
+    .img-powerbi:hover{
+        width: 50%;
+        transition: 0.3s;
+    }
+    
+    
+    .img-bootstrap{
+        width: 60%;
+        transition: 0.3s;
+    }
+    .img-bootstrap:hover{
+        width: 65%;
+        transition: 0.3s;
+    }
+}
+
+
+@media(min-width: 1200px){
+
+    .nav-bar{
+        margin-right: 180px;
+    }
+
+    .info{
+        gap: 180px;
+        width: 80%;
+        height: 23rem;
+    }
+    .img-rhuan{
+        width: 20%;
+        padding-top: 0px;
+        padding-left: 10px;
+    }
+
+    .img-triade-humans{
+        width: 35%;
+        transition: 0.8s;
+        border-radius: 10px;
+    }
+    
+    .img-triade-humans:hover{
+        width: 45%;
+        transition: 0.8s;
+    }
+
+}
+
+@media(min-width: 2100px){
+    .info{
+        height: 32rem;
+    }
+
+    .texto{
+        font-size: 30px;
+    }
+
+    .btn-fundo{
+        font-size: 30px;
+    }
+    
+    .btn-fundo:hover{
+        font-size: 32px;
+    }
+}
+
+
+
+/* Animação Infinita na tela */
+
+:root { /* É um seletor especial que pega na raiz do HTML */
+
+    /* Criando duas variaveis e atribuindo valores de larura e altura */
+--w: 100px; 
+--h: 100px; 
+}
+
+.item {
+position: absolute;
+width: var(--w);
+height: var(--h);
+top: 0; /* posição inicial*/
+left: 0; /*posição inicial */
+
+/* Defina a animação para a direção vertical */
+animation: vertical 8.6s linear alternate infinite, 
+           horizontal 6.68s linear alternate infinite;
+}
+/* Keyframe é uma regra CSS que permite criar animações por etapas */
+/* O elemento sai do ponto 0 e vai ate 140vh que testei que a pagina tinha */
+@keyframes vertical {
+0% {
+    top: 0;
+}
+100% {
+    top: calc(140vh - var(--h)); /* Mova o elemento para a parte inferior da tela */
+}
+}
+
+/* O elemento tambem sai do ponto 0 e vai ao seu limite maximo extrema direita */
+@keyframes horizontal {
+0% {
+    left: 0;
+}
+100% {
+    left: calc(99vw - var(--w)); 
+}
+}
